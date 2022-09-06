@@ -92,7 +92,12 @@ Scanner sc=new Scanner(System.in);
             System.out.println("输入的成绩有误");
         }
 //注意：要考虑，正确数据，边界数据，错误数据这三个数据的结果是否正确
-
+/*
+或者
+以if(r<0||r>100){
+            System.out.println("输入的成绩有误");
+        }
+ */
     }
 }
 
